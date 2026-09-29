@@ -4,6 +4,7 @@ export type ConnectionState =
   | "connecting"
   | "live"
   | "polling"
+  | "archived"
   | "stale"
   | "error";
 
@@ -286,6 +287,8 @@ export interface RoutesSnapshot {
 export interface HealthResponse {
   ok: boolean;
   service: string;
+  /** auto：本地归档优先；offline：只读本地；live：官方实时数据 */
+  mode: "auto" | "offline" | "live";
   source: {
     baseUrl: string;
     socketUrl: string;

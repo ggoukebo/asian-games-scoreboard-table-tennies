@@ -122,6 +122,10 @@ button {
   color: #a8f0c6;
 }
 
+.connection-badge.status-archived {
+  color: #ffe08a;
+}
+
 .connection-badge.status-error,
 .connection-badge.status-stale {
   color: #ffc2b8;

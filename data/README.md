@@ -11,6 +11,7 @@
 ```powershell
 node data/fetch-raw.mjs data/schedule.decoded.json   # 刷新赛程快照
 $env:AG_FORCE='1'; node data/fetch-results.mjs       # 刷新全部单场结果（去掉 AG_FORCE 则只补抓缺失场次）
+node data/fetch-flags.mjs                             # 刷新协会代码到官方旗帜资源的映射
 node_modules\.bin\tsx.cmd data/build-routes.ts        # 生成报告（会复用项目的中文名对照表）
 ```
 
@@ -19,7 +20,8 @@ node_modules\.bin\tsx.cmd data/build-routes.ts        # 生成报告（会复用
 ## 与应用内实现的关系
 
 应用（`http://localhost:3000` 的「晋级路线」视图）内置了同一套口径的在线实现，
-由后端实时维护快照，无需运行本目录脚本：
+由后端实时维护快照，无需运行本目录脚本。默认 `AG_MODE=auto`，优先读取本目录的归档；
+设置 `AG_MODE=offline` 时可完全断网运行：
 
 | 位置 | 说明 |
 | --- | --- |
@@ -38,7 +40,15 @@ node_modules\.bin\tsx.cmd data/build-routes.ts        # 生成报告（会复用
 | [match-results.csv](match-results.csv) | 全部场次明细（项目/轮次/场次/时间/球台/双方/比分/局分/胜者/晋级去向），便于二次处理 |
 | [schedule.decoded.json](schedule.decoded.json) | 官方赛程快照（解码后原文） |
 | [raw-units.bin](raw-units.bin) | 官方赛程响应的原始字节，用于排查编码问题 |
-| [results/](results/) | 每场单场结果缓存（284 个文件，可随时重建，建议不纳入版本库） |
+| [results/](results/) | 每场单场结果缓存（284 个文件，已纳入版本库，用于离线回放） |
+| [flags.json](flags.json) | 255 个协会代码到官方旗帜资源的映射；断网时前端自动降级显示协会代码 |
+
+在仓库根目录执行以下命令即可离线打开完整页面：
+
+```powershell
+npm run build
+npm run start:offline
+```
 
 ## 口径
 

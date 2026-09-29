@@ -3,7 +3,27 @@ const numberFromEnv = (value: string | undefined, fallback: number): number => {
   return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback;
 };
 
+export type AppMode = "auto" | "offline" | "live";
+
+const modeFromEnv = (value: string | undefined): AppMode => {
+  const normalized = (value ?? "auto").trim().toLowerCase();
+  if (
+    normalized === "live" ||
+    normalized === "offline" ||
+    normalized === "auto"
+  ) {
+    return normalized;
+  }
+  return "auto";
+};
+
 export const config = {
+  /**
+   * auto：优先读取 data/ 本地归档，缺失时再访问官方服务（默认）
+   * offline：只读本地归档，完全不访问网络
+   * live：忽略本地归档，使用官方实时数据
+   */
+  mode: modeFromEnv(process.env.AG_MODE),
   host: process.env.HOST ?? "0.0.0.0",
   port: numberFromEnv(process.env.PORT, 3000),
   baseUrl:
@@ -28,6 +48,11 @@ export const config = {
   ),
   /** 每轮刷新最多补抓多少场单场结果 */
   routesMaxDetails: numberFromEnv(process.env.AG_ROUTES_MAX_DETAILS, 36),
+  /** 归档模式下一次性补全的场次上限（读取本地文件，可放开） */
+  routesArchiveMaxDetails: numberFromEnv(
+    process.env.AG_ROUTES_ARCHIVE_MAX_DETAILS,
+    600
+  ),
   // 一次暂停（Time-out）的展示时长，ITTF 规则为 60 秒
   timeoutSeconds: numberFromEnv(process.env.AG_TIMEOUT_SECONDS, 60)
 } as const;

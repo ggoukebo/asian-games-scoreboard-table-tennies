@@ -341,6 +341,36 @@ describe("MatchManager refresh arbitration", () => {
   });
 });
 
+describe("MatchManager local archive", () => {
+  it("loads an archived match once without opening a socket or polling", async () => {
+    vi.useFakeTimers();
+    const getMatch = vi.fn(async () =>
+      makeRaw(0, 3, "SUB-1", 1, 1, null, { home: 0, away: 0 }, "OFFICIAL")
+    );
+    const hasArchivedMatch = vi.fn(() => true);
+    const createSocket = vi.fn(() => new FakeSocket() as unknown as Socket);
+    const manager = new MatchManager(
+      { getMatch, hasArchivedMatch },
+      createSocket
+    );
+
+    const unsubscribe = manager.subscribe(MATCH_KEY);
+    try {
+      await vi.advanceTimersByTimeAsync(0);
+
+      expect(getMatch).toHaveBeenCalledTimes(1);
+      expect(createSocket).not.toHaveBeenCalled();
+      expect(manager.getStatus(MATCH_KEY).state).toBe("archived");
+
+      await vi.advanceTimersByTimeAsync(10000);
+      expect(getMatch).toHaveBeenCalledTimes(1);
+    } finally {
+      unsubscribe();
+      vi.useRealTimers();
+    }
+  });
+});
+
 describe("MatchManager time-out tracking", () => {
   const START = new Date("2026-09-20T10:00:00+09:00");
 

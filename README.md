@@ -1,6 +1,8 @@
-# AG2026 乒乓球实时记分牌
+# AG2026 乒乓球实时记分牌（含离线归档）
 
-读取亚洲运动会 2026 官方结果服务中的 TTE（乒乓球）比赛数据，并在本地或局域网网页中展示：
+读取亚洲运动会 2026 官方结果服务中的 TTE（乒乓球）比赛数据，并在本地或局域网网页中展示。
+仓库内的 `data/` 已缓存全部 284 场比赛结果、赛程原始数据与国旗映射，官方服务下线后
+依然可以完整回放本届比赛：
 
 - 团体大比分
 - 当前单打场次与双方已赢局数
@@ -10,6 +12,7 @@
 - 某一方暂停（Time-out）提示与倒计时
 - 各项目晋级路线：签表对阵、逐轮比分与每位选手（组合/队伍）的晋级历程
 - 官方 Socket.IO 实时更新与 4 秒轮询兜底
+- 离线归档模式：不联网也能浏览全部比赛与晋级路线
 
 ## 页面视图
 
@@ -19,6 +22,33 @@
 | --- | --- |
 | 实时记分牌 | 单场比赛的实时大比分、局分、发球方、暂停与判罚 |
 | 晋级路线 | 7 个项目的签表对阵、逐轮比分、当前签表内选手的晋级历程（可一键跳到该场的记分牌） |
+
+## 离线归档模式
+
+数据来源只由环境变量 `AG_MODE` 决定：
+
+| 模式 | 行为 |
+| --- | --- |
+| `auto`（默认） | 优先读取 `data/` 本地归档；缺失的场次再访问官方服务，命中归档时不连接 Socket.IO、也不轮询 |
+| `offline` | 只读本地归档，完全不联网 |
+| `live` | 忽略本地归档，使用官方实时数据与 Socket.IO |
+
+归档模式下页面右上角显示「本地归档」，接口返回快照时 `stale` 为 `false`。
+
+```powershell
+# 完全离线启动（先构建前端）
+npm run build
+npm run start:offline
+```
+
+归档数据可随时刷新（需要官方服务仍可访问）：
+
+```powershell
+node data/fetch-raw.mjs data/schedule.decoded.json   # 赛程 + 原始数据
+$env:AG_FORCE='1'; node data/fetch-results.mjs        # 全部单场结果
+npm run flags:cache                                   # 国旗资源映射
+npx tsx data/build-routes.ts                          # 路线文档 / CSV / JSON
+```
 
 ## 本地开发
 
@@ -55,6 +85,8 @@ npm start
 | --- | --- | --- |
 | `HOST` | `0.0.0.0` | 监听地址 |
 | `PORT` | `3000` | 服务端口 |
+| `AG_MODE` | `auto` | `auto` 归档优先 / `offline` 只读本地 / `live` 官方实时 |
+| `AG_ARCHIVE_DIR` | `data` | 本地归档目录 |
 | `AG_BASE_URL` | `https://back.results.asiangames2026.org` | 官方 HTTP 数据源 |
 | `AG_WEB_URL` | `https://results.asiangames2026.org` | 官方网页与旗帜资源来源 |
 | `AG_SOCKET_URL` | `https://results.asiangames2026.org:443` | 官方 Socket.IO 地址 |
@@ -67,6 +99,7 @@ npm start
 | `AG_ROUTES_DETAIL_TTL_MS` | `20000` | 进行中场次的逐局比分缓存时长 |
 | `AG_ROUTES_IDLE_DETAIL_TTL_MS` | `300000` | 未开赛场次的单场结果缓存时长 |
 | `AG_ROUTES_MAX_DETAILS` | `36` | 每轮刷新最多补抓多少场单场结果 |
+| `AG_ROUTES_ARCHIVE_MAX_DETAILS` | `600` | 归档模式一次性补全的场次上限 |
 | `AG_TIMEOUT_SECONDS` | `60` | 一次暂停提示的展示时长（秒） |
 
 ## 晋级路线

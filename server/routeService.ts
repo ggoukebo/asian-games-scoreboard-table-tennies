@@ -33,9 +33,17 @@ export class RouteService extends EventEmitter {
   private timer: NodeJS.Timeout | null = null;
 
   constructor(
-    private readonly client: Pick<AgClient, "getRawUnits" | "getMatch">
+    private readonly client: Pick<
+      AgClient,
+      "getRawUnits" | "getMatch" | "hasArchivedUnits"
+    >
   ) {
     super();
+  }
+
+  /** 本地归档可用时只构建一次，不启动后台刷新 */
+  private get archiveMode(): boolean {
+    return this.client.hasArchivedUnits();
   }
 
   /** 启动后台定时刷新：接口始终返回最近一次快照 */
@@ -44,6 +52,9 @@ export class RouteService extends EventEmitter {
       return;
     }
     void this.refresh().catch(() => undefined);
+    if (this.archiveMode) {
+      return;
+    }
     this.timer = setInterval(() => {
       void this.refresh().catch(() => undefined);
     }, config.routesTtlMs);
@@ -59,6 +70,7 @@ export class RouteService extends EventEmitter {
   getSnapshot(): RoutesSnapshot | null {
     if (
       this.snapshot &&
+      !this.archiveMode &&
       Date.now() - Date.parse(this.snapshot.updatedAt) > config.routesTtlMs
     ) {
       void this.refresh().catch(() => undefined);
@@ -92,13 +104,16 @@ export class RouteService extends EventEmitter {
 
       // 先用赛程数据（+ 已有细节）发布一次，保证接口响应足够快
       const events = buildRouteEvents(raw, this.liveDetails(), getCachedFlagMap());
-      this.publish(events, false, "已同步官方成绩", force);
+      const message = this.archiveMode ? "已载入本地归档" : "已同步官方成绩";
+      this.publish(events, false, message, force);
 
       // 再补齐当前轮次的逐局比分、团体小盘比分与双打中文名
       const pending = selectDetailKeys(
         raw,
         new Set(this.details.keys()),
-        config.routesMaxDetails
+        this.archiveMode
+          ? config.routesArchiveMaxDetails
+          : config.routesMaxDetails
       );
       if (pending.length > 0) {
         await this.loadDetails(pending, collectScheduleStatuses(raw));
@@ -107,7 +122,7 @@ export class RouteService extends EventEmitter {
           this.liveDetails(),
           getCachedFlagMap()
         );
-        this.publish(enriched, false, "已同步官方成绩", false);
+        this.publish(enriched, false, message, false);
       }
     } catch (error) {
       const message = errorMessage(error);
@@ -182,7 +197,12 @@ export class RouteService extends EventEmitter {
       }
     };
     await Promise.all(
-      Array.from({ length: Math.min(3, queue.length) }, () => worker())
+      Array.from(
+        {
+          length: Math.min(this.archiveMode ? 8 : 3, queue.length)
+        },
+        () => worker()
+      )
     );
   }
 

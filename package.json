@@ -7,6 +7,8 @@
     "dev": "concurrently -k \"tsx watch server/index.ts\" \"vite --config vite.config.ts\"",
     "build": "vite build",
     "start": "cross-env NODE_ENV=production tsx server/index.ts",
+    "start:offline": "cross-env NODE_ENV=production AG_MODE=offline tsx server/index.ts",
+    "flags:cache": "node data/fetch-flags.mjs",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },

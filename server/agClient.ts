@@ -1,4 +1,10 @@
 import type { ScheduleMatch } from "../shared/types";
+import {
+  hasArchivedMatch,
+  hasArchivedUnits,
+  readArchivedMatch,
+  readArchivedUnits
+} from "./archive";
 import { config } from "./config";
 import { decodeResponse } from "./codec";
 import { getCachedFlagMap, warmFlagMap } from "./flagAssets";
@@ -35,7 +41,29 @@ export class AgClient {
     | undefined;
   private rawUnitsCache: { expiresAt: number; value: unknown } | undefined;
 
+  /** 归档模式（auto / offline）下是否允许读取 data/ 本地缓存 */
+  get archiveEnabled(): boolean {
+    return config.mode !== "live";
+  }
+
+  hasArchivedMatch(matchKey: string): boolean {
+    return this.archiveEnabled && hasArchivedMatch(matchKey);
+  }
+
+  hasArchivedUnits(): boolean {
+    return this.archiveEnabled && hasArchivedUnits();
+  }
+
   async getMatch(matchKey: string): Promise<unknown> {
+    if (this.archiveEnabled) {
+      const archived = readArchivedMatch(matchKey);
+      if (archived !== undefined) {
+        return archived;
+      }
+      if (config.mode === "offline") {
+        throw new Error(`本地归档中没有这场比赛：${matchKey}`);
+      }
+    }
     return fetchOfficial(`/results/${encodeURIComponent(matchKey)}`);
   }
 
@@ -46,7 +74,22 @@ export class AgClient {
       return this.rawUnitsCache.value;
     }
 
-    const value = await fetchOfficial("/events/phases/units");
+    let value: unknown;
+    if (this.archiveEnabled) {
+      const archived = readArchivedUnits();
+      if (archived !== undefined) {
+        value = archived;
+      } else if (config.mode === "offline") {
+        throw new Error(
+          "本地归档缺少赛程数据（data/schedule.decoded.json）"
+        );
+      } else {
+        value = await fetchOfficial("/events/phases/units");
+      }
+    } else {
+      value = await fetchOfficial("/events/phases/units");
+    }
+
     this.rawUnitsCache = {
       expiresAt: now + config.scheduleTtlMs,
       value
@@ -60,7 +103,7 @@ export class AgClient {
       return this.scheduleCache.value;
     }
 
-    const raw = await fetchOfficial("/events/phases/units");
+    const raw = await this.getRawUnits();
     const value = normalizeSchedule(raw, getCachedFlagMap());
     warmFlagMap();
     this.scheduleCache = {

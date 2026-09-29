@@ -1,4 +1,5 @@
 import { config } from "./config";
+import { readArchivedFlags } from "./archive";
 
 export type FlagMap = Readonly<Record<string, string>>;
 
@@ -66,8 +67,23 @@ const loadFlagMap = async (): Promise<FlagMap> => {
 
 let cache: FlagCache | undefined;
 let inFlight: Promise<FlagMap> | undefined;
+let archivedFlags: FlagMap | undefined;
+let archivedFlagsLoaded = false;
+
+/** data/flags.json（如存在）作为永不过期的离线旗帜映射 */
+const getArchivedFlags = (): FlagMap | undefined => {
+  if (!archivedFlagsLoaded) {
+    archivedFlagsLoaded = true;
+    archivedFlags = readArchivedFlags();
+  }
+  return archivedFlags;
+};
 
 export const getCachedFlagMap = (): FlagMap => {
+  const archived = getArchivedFlags();
+  if (archived && config.mode !== "live") {
+    return archived;
+  }
   if (cache && cache.expiresAt > Date.now()) {
     return cache.value;
   }
@@ -75,10 +91,18 @@ export const getCachedFlagMap = (): FlagMap => {
 };
 
 export const warmFlagMap = (): void => {
+  if (config.mode !== "live" && getArchivedFlags()) {
+    return;
+  }
   void getFlagMap().catch(() => undefined);
 };
 
 export const getFlagMap = async (): Promise<FlagMap> => {
+  const archived = getArchivedFlags();
+  if (archived && config.mode !== "live") {
+    return archived;
+  }
+
   const now = Date.now();
   if (cache && cache.expiresAt > now) {
     return cache.value;

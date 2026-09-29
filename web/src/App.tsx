@@ -1,6 +1,7 @@
 import {
   Activity,
   AlertCircle,
+  Archive,
   CalendarDays,
   CircleDot,
   Clock3,
@@ -44,6 +45,7 @@ const connectionLabels: Record<ConnectionState, string> = {
   connecting: "连接中",
   live: "实时",
   polling: "轮询中",
+  archived: "本地归档",
   stale: "数据已过期",
   error: "连接异常"
 };
@@ -292,7 +294,14 @@ function ConnectionBadge({
   state: ConnectionState;
   message: string;
 }) {
-  const Icon = state === "live" ? Wifi : state === "error" ? WifiOff : Radio;
+  const Icon =
+    state === "live"
+      ? Wifi
+      : state === "archived"
+        ? Archive
+        : state === "error"
+          ? WifiOff
+          : Radio;
   return (
     <div className={`connection-badge ${statusClass(state)}`} title={message}>
       <Icon size={15} aria-hidden="true" />
@@ -817,7 +826,7 @@ export function App() {
         <section className="source-note">
           <ListTree size={16} aria-hidden="true" />
           <span>
-            数据由官方结果服务提供。实时通道异常时，后端会自动切换到轮询。
+            数据优先读取仓库内的本地归档；缺失时才会访问官方结果服务。
           </span>
         </section>
 

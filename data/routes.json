@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T12:13:41.415Z",
-  "snapshotJst": "2026/09/26 21:13",
+  "generatedAt": "2026-09-29T04:23:42.413Z",
+  "snapshotJst": "2026/09/29 13:23",
   "source": "https://back.results.asiangames2026.org/s/AG2026/en/TTE",
   "events": [
     {
@@ -174,7 +174,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-22T12:30:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "3-0",
               "games": "3-0,3-1,3-0",
               "subScores": null,
@@ -213,7 +213,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-22T12:30:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "0-3",
               "games": "0-3,0-3,2-3",
               "subScores": null,
@@ -336,7 +336,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-22T19:20:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "9 号台",
               "score": "3-0",
               "games": "3-0,3-0,3-1",
               "subScores": null,
@@ -375,7 +375,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-22T19:20:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "3-0",
               "games": "3-0,3-2,3-0",
               "subScores": null,
@@ -1369,7 +1369,7 @@
               "result": "win",
               "bye": false,
               "startAt": "2026-09-22T19:20:00+09:00",
-              "table": ""
+              "table": "8 号台"
             },
             {
               "round": "半决赛",
@@ -1471,7 +1471,7 @@
               "result": "win",
               "bye": false,
               "startAt": "2026-09-22T19:20:00+09:00",
-              "table": ""
+              "table": "9 号台"
             },
             {
               "round": "半决赛",
@@ -1582,7 +1582,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-22T10:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "2-3",
               "games": "3-2,2-3,3-2,0-3,1-3",
               "subScores": null,
@@ -1705,7 +1705,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-22T19:20:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "3-0",
               "games": "3-0,3-0,3-0",
               "subScores": null,
@@ -1744,7 +1744,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-22T19:20:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "3-0",
               "games": "3-1,3-2,3-0",
               "subScores": null,
@@ -2750,7 +2750,7 @@
               "result": "win",
               "bye": false,
               "startAt": "2026-09-22T19:20:00+09:00",
-              "table": ""
+              "table": "5 号台"
             },
             {
               "round": "半决赛",
@@ -2795,7 +2795,7 @@
               "result": "win",
               "bye": false,
               "startAt": "2026-09-22T19:20:00+09:00",
-              "table": ""
+              "table": "6 号台"
             },
             {
               "round": "半决赛",
@@ -2984,7 +2984,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-22T15:40:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "1-3",
               "games": "6:11, 11:9, 8:11, 2:11",
               "subScores": null,
@@ -3023,7 +3023,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-22T15:10:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "1-3",
               "games": "11:2, 6:11, 6:11, 9:11",
               "subScores": null,
@@ -3062,7 +3062,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-22T15:10:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "3-1",
               "games": "7:11, 12:10, 11:3, 11:4",
               "subScores": null,
@@ -3302,7 +3302,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T10:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "0-3",
               "games": "7:11, 4:11, 4:11",
               "subScores": null,
@@ -3341,7 +3341,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T10:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "3-2",
               "games": "9:11, 11:6, 11:7, 9:11, 11:6",
               "subScores": null,
@@ -3380,7 +3380,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T10:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "0-3",
               "games": "2:11, 6:11, 7:11",
               "subScores": null,
@@ -3419,7 +3419,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T10:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "0-3",
               "games": "3:11, 10:12, 9:11",
               "subScores": null,
@@ -3497,7 +3497,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T10:40:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "3-0",
               "games": "11:5, 11:5, 11:9",
               "subScores": null,
@@ -3536,7 +3536,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T10:40:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "0-3",
               "games": "4:11, 9:11, 4:11",
               "subScores": null,
@@ -3575,7 +3575,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T10:40:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "3-2",
               "games": "7:11, 5:11, 11:9, 11:9, 11:9",
               "subScores": null,
@@ -3614,7 +3614,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T10:40:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "9 号台",
               "score": "0-3",
               "games": "8:11, 10:12, 4:11",
               "subScores": null,
@@ -3815,7 +3815,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T13:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "3-0",
               "games": "11:5, 11:4, 11:6",
               "subScores": null,
@@ -3854,7 +3854,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T13:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "0-3",
               "games": "5:11, 9:11, 3:11",
               "subScores": null,
@@ -3893,7 +3893,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T13:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "3-1",
               "games": "11:6, 11:5, 10:12, 11:7",
               "subScores": null,
@@ -3932,7 +3932,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T13:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "1-3",
               "games": "2:11, 12:10, 4:11, 8:11",
               "subScores": null,
@@ -4172,7 +4172,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T10:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "0-3",
               "games": "5:11, 10:12, 9:11",
               "subScores": null,
@@ -4454,7 +4454,7 @@
               "result": "win",
               "bye": false,
               "startAt": "2026-09-23T13:45:00+09:00",
-              "table": ""
+              "table": "8 号台"
             },
             {
               "round": "1/4决赛",
@@ -4466,7 +4466,7 @@
               "result": "win",
               "bye": false,
               "startAt": "2026-09-25T10:00:00+09:00",
-              "table": ""
+              "table": "8 号台"
             },
             {
               "round": "半决赛",
@@ -4616,7 +4616,7 @@
               "result": "win",
               "bye": false,
               "startAt": "2026-09-23T13:45:00+09:00",
-              "table": ""
+              "table": "5 号台"
             },
             {
               "round": "1/4决赛",
@@ -4673,7 +4673,7 @@
               "result": "win",
               "bye": false,
               "startAt": "2026-09-23T10:40:00+09:00",
-              "table": ""
+              "table": "9 号台"
             },
             {
               "round": "第三轮（16强）",
@@ -4925,7 +4925,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T11:20:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "0-4",
               "games": "2:11, 7:11, 6:11, 8:11",
               "subScores": null,
@@ -5003,7 +5003,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T11:20:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "4-1",
               "games": "11:5, 11:8, 8:11, 11:7, 11:6",
               "subScores": null,
@@ -5081,7 +5081,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T11:20:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "4-0",
               "games": "13:11, 11:4, 11:5, 11:7",
               "subScores": null,
@@ -5120,7 +5120,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T11:20:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "1-4",
               "games": "8:11, 11:9, 11:13, 3:11, 3:11",
               "subScores": null,
@@ -5276,7 +5276,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T12:05:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "4-1",
               "games": "11:5, 13:11, 9:11, 11:3, 12:10",
               "subScores": null,
@@ -5315,7 +5315,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T12:05:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "0-4",
               "games": "7:11, 2:11, 5:11, 8:11",
               "subScores": null,
@@ -5354,7 +5354,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T12:05:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "0-4",
               "games": "9:11, 12:14, 7:11, 4:11",
               "subScores": null,
@@ -5393,7 +5393,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T12:05:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "1-4",
               "games": "2:11, 6:11, 8:11, 12:10, 5:11",
               "subScores": null,
@@ -5477,7 +5477,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T14:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "4-2",
               "games": "3:11, 11:6, 11:4, 8:11, 11:2, 11:5",
               "subScores": null,
@@ -5633,7 +5633,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T14:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "4-1",
               "games": "9:11, 11:3, 11:7, 11:7, 11:2",
               "subScores": null,
@@ -5672,7 +5672,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T14:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "4-0",
               "games": "11:6, 13:11, 11:4, 11:8",
               "subScores": null,
@@ -5711,7 +5711,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T14:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "4-0",
               "games": "11:8, 11:5, 11:9, 11:3",
               "subScores": null,
@@ -5789,7 +5789,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T14:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "4-0",
               "games": "11:4, 11:7, 11:8, 11:4",
               "subScores": null,
@@ -5828,7 +5828,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T14:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "3-4",
               "games": "11:9, 11:7, 9:11, 11:7, 10:12, 6:11, 6:11",
               "subScores": null,
@@ -5867,7 +5867,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T14:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "4-0",
               "games": "11:3, 11:4, 11:5, 11:6",
               "subScores": null,
@@ -5984,7 +5984,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T14:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "0-4",
               "games": "9:11, 6:11, 6:11, 5:11",
               "subScores": null,
@@ -6584,12 +6584,12 @@
             {
               "key": "M.SINGLES-----------.SFNL.000100--",
               "index": 1,
-              "status": "START_LIST",
+              "status": "OFFICIAL",
               "startAt": "2026-09-28T13:30:00+09:00",
               "venue": "SKY HALL TOYOTA",
               "table": "1 号台",
-              "score": "",
-              "games": "",
+              "score": "4-1",
+              "games": "11:4, 11:7, 9:11, 11:4, 11:6",
               "subScores": null,
               "home": {
                 "reg": "16273238",
@@ -6597,8 +6597,8 @@
                 "name": "王楚钦",
                 "latin": "WANG C",
                 "bye": false,
-                "score": "",
-                "winner": false
+                "score": "4",
+                "winner": true
               },
               "away": {
                 "reg": "8652944",
@@ -6606,10 +6606,10 @@
                 "name": "诺沙德·阿拉米扬",
                 "latin": "ALAMIYAN N",
                 "bye": false,
-                "score": "",
+                "score": "1",
                 "winner": false
               },
-              "winner": null,
+              "winner": "home",
               "feeders": [
                 "M.SINGLES-----------.QFNL.000100--",
                 "M.SINGLES-----------.QFNL.000200--"
@@ -6623,12 +6623,12 @@
             {
               "key": "M.SINGLES-----------.SFNL.000200--",
               "index": 2,
-              "status": "START_LIST",
+              "status": "OFFICIAL",
               "startAt": "2026-09-28T14:15:00+09:00",
               "venue": "SKY HALL TOYOTA",
               "table": "1 号台",
-              "score": "",
-              "games": "",
+              "score": "3-4",
+              "games": "12:10, 11:9, 8:11, 9:11, 11:9, 6:11, 9:11",
               "subScores": null,
               "home": {
                 "reg": "4735886",
@@ -6636,7 +6636,7 @@
                 "name": "林昀儒",
                 "latin": "LIN Y",
                 "bye": false,
-                "score": "",
+                "score": "3",
                 "winner": false
               },
               "away": {
@@ -6645,10 +6645,10 @@
                 "name": "林诗栋",
                 "latin": "LIN S",
                 "bye": false,
-                "score": "",
-                "winner": false
+                "score": "4",
+                "winner": true
               },
-              "winner": null,
+              "winner": "away",
               "feeders": [
                 "M.SINGLES-----------.QFNL.000300--",
                 "M.SINGLES-----------.QFNL.000400--"
@@ -6668,16 +6668,32 @@
             {
               "key": "M.SINGLES-----------.FNL-.000100--",
               "index": 1,
-              "status": "SCHEDULED",
+              "status": "OFFICIAL",
               "startAt": "2026-09-28T20:30:00+09:00",
               "venue": "SKY HALL TOYOTA",
               "table": "1 号台",
-              "score": "",
-              "games": "",
+              "score": "0-4",
+              "games": "5:11, 8:11, 11:13, 5:11",
               "subScores": null,
-              "home": null,
-              "away": null,
-              "winner": null,
+              "home": {
+                "reg": "16273238",
+                "org": "CHN",
+                "name": "王楚钦",
+                "latin": "WANG C",
+                "bye": false,
+                "score": "0",
+                "winner": false
+              },
+              "away": {
+                "reg": "16272951",
+                "org": "CHN",
+                "name": "林诗栋",
+                "latin": "LIN S",
+                "bye": false,
+                "score": "4",
+                "winner": true
+              },
+              "winner": "away",
               "feeders": [
                 "M.SINGLES-----------.SFNL.000100--",
                 "M.SINGLES-----------.SFNL.000200--"
@@ -6694,7 +6710,7 @@
           "name": "王楚钦",
           "org": "CHN",
           "orgName": "中国",
-          "status": "active",
+          "status": "runner-up",
           "steps": [
             {
               "round": "第一轮（64强）",
@@ -6718,7 +6734,7 @@
               "result": "win",
               "bye": false,
               "startAt": "2026-09-25T14:00:00+09:00",
-              "table": ""
+              "table": "8 号台"
             },
             {
               "round": "第三轮（16强）",
@@ -6749,149 +6765,23 @@
               "matchKey": "M.SINGLES-----------.SFNL.000100--",
               "opponent": "诺沙德·阿拉米扬",
               "opponentOrg": "IRI",
-              "score": "",
-              "games": "",
-              "result": "pending",
-              "bye": false,
-              "startAt": "2026-09-28T13:30:00+09:00",
-              "table": "1 号台"
-            }
-          ]
-        },
-        {
-          "reg": "8652944",
-          "name": "诺沙德·阿拉米扬",
-          "org": "IRI",
-          "orgName": "伊朗",
-          "status": "active",
-          "steps": [
-            {
-              "round": "第一轮（64强）",
-              "matchKey": "M.SINGLES-----------.R64-.001100--",
-              "opponent": "穆萨·艾哈迈德",
-              "opponentOrg": "MDV",
-              "score": "4-0",
-              "games": "11:2, 11:7, 11:6, 11:8",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-24T11:20:00+09:00",
-              "table": ""
-            },
-            {
-              "round": "第二轮（32强）",
-              "matchKey": "M.SINGLES-----------.R32-.000600--",
-              "opponent": "冯耀恩",
-              "opponentOrg": "SGP",
-              "score": "4-0",
-              "games": "11:6, 13:11, 11:4, 11:8",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-25T14:00:00+09:00",
-              "table": ""
-            },
-            {
-              "round": "第三轮（16强）",
-              "matchKey": "M.SINGLES-----------.8FNL.000300--",
-              "opponent": "黄镇廷",
-              "opponentOrg": "HKG",
-              "score": "4-2",
-              "games": "3:11, 11:6, 11:7, 11:8, 10:12, 11:5",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-26T11:30:00+09:00",
-              "table": "4 号台"
-            },
-            {
-              "round": "1/4决赛",
-              "matchKey": "M.SINGLES-----------.QFNL.000200--",
-              "opponent": "张本智和",
-              "opponentOrg": "JPN",
-              "score": "4-3",
-              "games": "11:9, 11:7, 3:11, 11:6, 14:16, 6:11, 11:9",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-26T17:00:00+09:00",
-              "table": "1 号台"
-            },
-            {
-              "round": "半决赛",
-              "matchKey": "M.SINGLES-----------.SFNL.000100--",
-              "opponent": "王楚钦",
-              "opponentOrg": "CHN",
-              "score": "",
-              "games": "",
-              "result": "pending",
-              "bye": false,
-              "startAt": "2026-09-28T13:30:00+09:00",
-              "table": "1 号台"
-            }
-          ]
-        },
-        {
-          "reg": "4735886",
-          "name": "林昀儒",
-          "org": "TPE",
-          "orgName": "中国台北",
-          "status": "active",
-          "steps": [
-            {
-              "round": "第一轮（64强）",
-              "matchKey": "",
-              "opponent": "",
-              "opponentOrg": "",
-              "score": "",
-              "games": "",
-              "result": "pending",
-              "bye": true,
-              "startAt": "2026-09-24T11:20:00+09:00",
-              "table": ""
-            },
-            {
-              "round": "第二轮（32强）",
-              "matchKey": "M.SINGLES-----------.R32-.000900--",
-              "opponent": "拉希德·拉希德",
-              "opponentOrg": "BRN",
-              "score": "4-0",
-              "games": "11:4, 11:7, 11:8, 11:4",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-25T14:45:00+09:00",
-              "table": ""
-            },
-            {
-              "round": "第三轮（16强）",
-              "matchKey": "M.SINGLES-----------.8FNL.000500--",
-              "opponent": "基里尔·格拉西缅科",
-              "opponentOrg": "KAZ",
-              "score": "4-0",
-              "games": "11:3, 11:6, 11:6, 11:8",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-26T12:15:00+09:00",
-              "table": "3 号台"
-            },
-            {
-              "round": "1/4决赛",
-              "matchKey": "M.SINGLES-----------.QFNL.000300--",
-              "opponent": "陈颢桦",
-              "opponentOrg": "HKG",
               "score": "4-1",
-              "games": "11:7, 11:7, 8:11, 11:9, 11:5",
+              "games": "11:4, 11:7, 9:11, 11:4, 11:6",
               "result": "win",
               "bye": false,
-              "startAt": "2026-09-26T17:00:00+09:00",
-              "table": "3 号台"
+              "startAt": "2026-09-28T13:30:00+09:00",
+              "table": "1 号台"
             },
             {
-              "round": "半决赛",
-              "matchKey": "M.SINGLES-----------.SFNL.000200--",
+              "round": "决赛",
+              "matchKey": "M.SINGLES-----------.FNL-.000100--",
               "opponent": "林诗栋",
               "opponentOrg": "CHN",
-              "score": "",
-              "games": "",
-              "result": "pending",
+              "score": "0-4",
+              "games": "5:11, 8:11, 11:13, 5:11",
+              "result": "loss",
               "bye": false,
-              "startAt": "2026-09-28T14:15:00+09:00",
+              "startAt": "2026-09-28T20:30:00+09:00",
               "table": "1 号台"
             }
           ]
@@ -6901,7 +6791,7 @@
           "name": "林诗栋",
           "org": "CHN",
           "orgName": "中国",
-          "status": "active",
+          "status": "champion",
           "steps": [
             {
               "round": "第一轮（64强）",
@@ -6956,9 +6846,159 @@
               "matchKey": "M.SINGLES-----------.SFNL.000200--",
               "opponent": "林昀儒",
               "opponentOrg": "TPE",
+              "score": "4-3",
+              "games": "10:12, 9:11, 11:8, 11:9, 9:11, 11:6, 11:9",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-28T14:15:00+09:00",
+              "table": "1 号台"
+            },
+            {
+              "round": "决赛",
+              "matchKey": "M.SINGLES-----------.FNL-.000100--",
+              "opponent": "王楚钦",
+              "opponentOrg": "CHN",
+              "score": "4-0",
+              "games": "11:5, 11:8, 13:11, 11:5",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-28T20:30:00+09:00",
+              "table": "1 号台"
+            }
+          ]
+        },
+        {
+          "reg": "8652944",
+          "name": "诺沙德·阿拉米扬",
+          "org": "IRI",
+          "orgName": "伊朗",
+          "status": "bronze",
+          "steps": [
+            {
+              "round": "第一轮（64强）",
+              "matchKey": "M.SINGLES-----------.R64-.001100--",
+              "opponent": "穆萨·艾哈迈德",
+              "opponentOrg": "MDV",
+              "score": "4-0",
+              "games": "11:2, 11:7, 11:6, 11:8",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-24T11:20:00+09:00",
+              "table": "5 号台"
+            },
+            {
+              "round": "第二轮（32强）",
+              "matchKey": "M.SINGLES-----------.R32-.000600--",
+              "opponent": "冯耀恩",
+              "opponentOrg": "SGP",
+              "score": "4-0",
+              "games": "11:6, 13:11, 11:4, 11:8",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-25T14:00:00+09:00",
+              "table": "6 号台"
+            },
+            {
+              "round": "第三轮（16强）",
+              "matchKey": "M.SINGLES-----------.8FNL.000300--",
+              "opponent": "黄镇廷",
+              "opponentOrg": "HKG",
+              "score": "4-2",
+              "games": "3:11, 11:6, 11:7, 11:8, 10:12, 11:5",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-26T11:30:00+09:00",
+              "table": "4 号台"
+            },
+            {
+              "round": "1/4决赛",
+              "matchKey": "M.SINGLES-----------.QFNL.000200--",
+              "opponent": "张本智和",
+              "opponentOrg": "JPN",
+              "score": "4-3",
+              "games": "11:9, 11:7, 3:11, 11:6, 14:16, 6:11, 11:9",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-26T17:00:00+09:00",
+              "table": "1 号台"
+            },
+            {
+              "round": "半决赛",
+              "matchKey": "M.SINGLES-----------.SFNL.000100--",
+              "opponent": "王楚钦",
+              "opponentOrg": "CHN",
+              "score": "1-4",
+              "games": "4:11, 7:11, 11:9, 4:11, 6:11",
+              "result": "loss",
+              "bye": false,
+              "startAt": "2026-09-28T13:30:00+09:00",
+              "table": "1 号台"
+            }
+          ]
+        },
+        {
+          "reg": "4735886",
+          "name": "林昀儒",
+          "org": "TPE",
+          "orgName": "中国台北",
+          "status": "bronze",
+          "steps": [
+            {
+              "round": "第一轮（64强）",
+              "matchKey": "",
+              "opponent": "",
+              "opponentOrg": "",
               "score": "",
               "games": "",
               "result": "pending",
+              "bye": true,
+              "startAt": "2026-09-24T11:20:00+09:00",
+              "table": ""
+            },
+            {
+              "round": "第二轮（32强）",
+              "matchKey": "M.SINGLES-----------.R32-.000900--",
+              "opponent": "拉希德·拉希德",
+              "opponentOrg": "BRN",
+              "score": "4-0",
+              "games": "11:4, 11:7, 11:8, 11:4",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-25T14:45:00+09:00",
+              "table": "8 号台"
+            },
+            {
+              "round": "第三轮（16强）",
+              "matchKey": "M.SINGLES-----------.8FNL.000500--",
+              "opponent": "基里尔·格拉西缅科",
+              "opponentOrg": "KAZ",
+              "score": "4-0",
+              "games": "11:3, 11:6, 11:6, 11:8",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-26T12:15:00+09:00",
+              "table": "3 号台"
+            },
+            {
+              "round": "1/4决赛",
+              "matchKey": "M.SINGLES-----------.QFNL.000300--",
+              "opponent": "陈颢桦",
+              "opponentOrg": "HKG",
+              "score": "4-1",
+              "games": "11:7, 11:7, 8:11, 11:9, 11:5",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-26T17:00:00+09:00",
+              "table": "3 号台"
+            },
+            {
+              "round": "半决赛",
+              "matchKey": "M.SINGLES-----------.SFNL.000200--",
+              "opponent": "林诗栋",
+              "opponentOrg": "CHN",
+              "score": "3-4",
+              "games": "12:10, 11:9, 8:11, 9:11, 11:9, 6:11, 9:11",
+              "result": "loss",
               "bye": false,
               "startAt": "2026-09-28T14:15:00+09:00",
               "table": "1 号台"
@@ -7138,7 +7178,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T12:05:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "4-0",
               "games": "11:3, 11:5, 11:1, 11:4",
               "subScores": null,
@@ -7177,7 +7217,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T12:05:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "4-0",
               "games": "11:3, 11:3, 11:2, 11:6",
               "subScores": null,
@@ -7216,7 +7256,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T12:05:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "0-4",
               "games": "10:12, 4:11, 4:11, 1:11",
               "subScores": null,
@@ -7411,7 +7451,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T12:50:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "4-1",
               "games": "11:4, 11:9, 11:2, 9:11, 11:4",
               "subScores": null,
@@ -7450,7 +7490,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T12:50:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "0-4",
               "games": "8:11, 10:12, 9:11, 6:11",
               "subScores": null,
@@ -7489,7 +7529,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T12:50:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "2-4",
               "games": "11:9, 10:12, 11:7, 6:11, 5:11, 9:11",
               "subScores": null,
@@ -7612,7 +7652,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T12:30:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "4-0",
               "games": "11:5, 11:7, 11:6, 11:6",
               "subScores": null,
@@ -7729,7 +7769,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T12:30:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "0-4",
               "games": "9:11, 4:11, 11:13, 7:11",
               "subScores": null,
@@ -7768,7 +7808,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T12:30:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "4-1",
               "games": "11:5, 11:5, 11:8, 8:11, 11:4",
               "subScores": null,
@@ -7807,7 +7847,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T12:30:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "9 号台",
               "score": "0-4",
               "games": "4:11, 10:12, 10:12, 5:11",
               "subScores": null,
@@ -8002,7 +8042,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T13:15:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "4-0",
               "games": "11:8, 11:7, 11:2, 11:4",
               "subScores": null,
@@ -8041,7 +8081,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T13:15:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "0-4",
               "games": "2:11, 1:11, 2:11, 2:11",
               "subScores": null,
@@ -8080,7 +8120,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T13:15:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "4-0",
               "games": "11:5, 11:8, 11:5, 11:6",
               "subScores": null,
@@ -8119,7 +8159,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T13:15:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "9 号台",
               "score": "0-4",
               "games": "2:11, 2:11, 4:11, 2:11",
               "subScores": null,
@@ -8641,12 +8681,12 @@
             {
               "key": "W.SINGLES-----------.SFNL.000100--",
               "index": 1,
-              "status": "START_LIST",
+              "status": "OFFICIAL",
               "startAt": "2026-09-27T13:30:00+09:00",
               "venue": "SKY HALL TOYOTA",
               "table": "1 号台",
-              "score": "",
-              "games": "",
+              "score": "4-1",
+              "games": "11:8, 11:4, 12:10, 9:11, 11:6",
               "subScores": null,
               "home": {
                 "reg": "16277438",
@@ -8654,8 +8694,8 @@
                 "name": "王曼昱",
                 "latin": "WANG M",
                 "bye": false,
-                "score": "",
-                "winner": false
+                "score": "4",
+                "winner": true
               },
               "away": {
                 "reg": "380921",
@@ -8663,10 +8703,10 @@
                 "name": "张本美和",
                 "latin": "HARIMOTO M",
                 "bye": false,
-                "score": "",
+                "score": "1",
                 "winner": false
               },
-              "winner": null,
+              "winner": "home",
               "feeders": [
                 "W.SINGLES-----------.QFNL.000100--",
                 "W.SINGLES-----------.QFNL.000200--"
@@ -8680,12 +8720,12 @@
             {
               "key": "W.SINGLES-----------.SFNL.000200--",
               "index": 2,
-              "status": "START_LIST",
+              "status": "OFFICIAL",
               "startAt": "2026-09-27T14:15:00+09:00",
               "venue": "SKY HALL TOYOTA",
               "table": "1 号台",
-              "score": "",
-              "games": "",
+              "score": "1-4",
+              "games": "6:11, 7:11, 11:9, 9:11, 5:11",
               "subScores": null,
               "home": {
                 "reg": "381042",
@@ -8693,7 +8733,7 @@
                 "name": "早田希娜",
                 "latin": "HAYATA H",
                 "bye": false,
-                "score": "",
+                "score": "1",
                 "winner": false
               },
               "away": {
@@ -8702,10 +8742,10 @@
                 "name": "孙颖莎",
                 "latin": "SUN Y",
                 "bye": false,
-                "score": "",
-                "winner": false
+                "score": "4",
+                "winner": true
               },
-              "winner": null,
+              "winner": "away",
               "feeders": [
                 "W.SINGLES-----------.QFNL.000300--",
                 "W.SINGLES-----------.QFNL.000400--"
@@ -8725,16 +8765,32 @@
             {
               "key": "W.SINGLES-----------.FNL-.000100--",
               "index": 1,
-              "status": "SCHEDULED",
+              "status": "OFFICIAL",
               "startAt": "2026-09-27T20:30:00+09:00",
               "venue": "SKY HALL TOYOTA",
               "table": "1 号台",
-              "score": "",
-              "games": "",
+              "score": "4-2",
+              "games": "11:8, 11:9, 11:13, 11:9, 4:11, 15:13",
               "subScores": null,
-              "home": null,
-              "away": null,
-              "winner": null,
+              "home": {
+                "reg": "16277438",
+                "org": "CHN",
+                "name": "王曼昱",
+                "latin": "WANG M",
+                "bye": false,
+                "score": "4",
+                "winner": true
+              },
+              "away": {
+                "reg": "16277232",
+                "org": "CHN",
+                "name": "孙颖莎",
+                "latin": "SUN Y",
+                "bye": false,
+                "score": "2",
+                "winner": false
+              },
+              "winner": "home",
               "feeders": [
                 "W.SINGLES-----------.SFNL.000100--",
                 "W.SINGLES-----------.SFNL.000200--"
@@ -8751,7 +8807,7 @@
           "name": "王曼昱",
           "org": "CHN",
           "orgName": "中国",
-          "status": "active",
+          "status": "champion",
           "steps": [
             {
               "round": "第一轮（64强）",
@@ -8806,11 +8862,104 @@
               "matchKey": "W.SINGLES-----------.SFNL.000100--",
               "opponent": "张本美和",
               "opponentOrg": "JPN",
+              "score": "4-1",
+              "games": "11:8, 11:4, 12:10, 9:11, 11:6",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-27T13:30:00+09:00",
+              "table": "1 号台"
+            },
+            {
+              "round": "决赛",
+              "matchKey": "W.SINGLES-----------.FNL-.000100--",
+              "opponent": "孙颖莎",
+              "opponentOrg": "CHN",
+              "score": "4-2",
+              "games": "11:8, 11:9, 11:13, 11:9, 4:11, 15:13",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-27T20:30:00+09:00",
+              "table": "1 号台"
+            }
+          ]
+        },
+        {
+          "reg": "16277232",
+          "name": "孙颖莎",
+          "org": "CHN",
+          "orgName": "中国",
+          "status": "runner-up",
+          "steps": [
+            {
+              "round": "第一轮（64强）",
+              "matchKey": "",
+              "opponent": "",
+              "opponentOrg": "",
               "score": "",
               "games": "",
               "result": "pending",
+              "bye": true,
+              "startAt": "2026-09-23T12:05:00+09:00",
+              "table": ""
+            },
+            {
+              "round": "第二轮（32强）",
+              "matchKey": "W.SINGLES-----------.R32-.001600--",
+              "opponent": "玛丽亚姆·阿里",
+              "opponentOrg": "QAT",
+              "score": "4-0",
+              "games": "11:2, 11:2, 11:4, 11:2",
+              "result": "win",
               "bye": false,
-              "startAt": "2026-09-27T13:30:00+09:00",
+              "startAt": "2026-09-25T13:15:00+09:00",
+              "table": "9 号台"
+            },
+            {
+              "round": "第三轮（16强）",
+              "matchKey": "W.SINGLES-----------.8FNL.000800--",
+              "opponent": "奥拉万·帕拉南",
+              "opponentOrg": "THA",
+              "score": "4-0",
+              "games": "11:5, 11:8, 11:4, 11:8",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-26T10:45:00+09:00",
+              "table": "2 号台"
+            },
+            {
+              "round": "1/4决赛",
+              "matchKey": "W.SINGLES-----------.QFNL.000400--",
+              "opponent": "朱芊曦",
+              "opponentOrg": "KOR",
+              "score": "4-2",
+              "games": "11:9, 14:12, 11:3, 7:11, 11:13, 11:8",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-26T16:15:00+09:00",
+              "table": "4 号台"
+            },
+            {
+              "round": "半决赛",
+              "matchKey": "W.SINGLES-----------.SFNL.000200--",
+              "opponent": "早田希娜",
+              "opponentOrg": "JPN",
+              "score": "4-1",
+              "games": "11:6, 11:7, 9:11, 11:9, 11:5",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-27T14:15:00+09:00",
+              "table": "1 号台"
+            },
+            {
+              "round": "决赛",
+              "matchKey": "W.SINGLES-----------.FNL-.000100--",
+              "opponent": "王曼昱",
+              "opponentOrg": "CHN",
+              "score": "2-4",
+              "games": "8:11, 9:11, 13:11, 9:11, 11:4, 13:15",
+              "result": "loss",
+              "bye": false,
+              "startAt": "2026-09-27T20:30:00+09:00",
               "table": "1 号台"
             }
           ]
@@ -8820,7 +8969,7 @@
           "name": "张本美和",
           "org": "JPN",
           "orgName": "日本",
-          "status": "active",
+          "status": "bronze",
           "steps": [
             {
               "round": "第一轮（64强）",
@@ -8844,7 +8993,7 @@
               "result": "win",
               "bye": false,
               "startAt": "2026-09-25T12:30:00+09:00",
-              "table": ""
+              "table": "9 号台"
             },
             {
               "round": "第三轮（16强）",
@@ -8875,9 +9024,9 @@
               "matchKey": "W.SINGLES-----------.SFNL.000100--",
               "opponent": "王曼昱",
               "opponentOrg": "CHN",
-              "score": "",
-              "games": "",
-              "result": "pending",
+              "score": "1-4",
+              "games": "8:11, 4:11, 10:12, 11:9, 6:11",
+              "result": "loss",
               "bye": false,
               "startAt": "2026-09-27T13:30:00+09:00",
               "table": "1 号台"
@@ -8889,7 +9038,7 @@
           "name": "早田希娜",
           "org": "JPN",
           "orgName": "日本",
-          "status": "active",
+          "status": "bronze",
           "steps": [
             {
               "round": "第一轮（64强）",
@@ -8944,78 +9093,9 @@
               "matchKey": "W.SINGLES-----------.SFNL.000200--",
               "opponent": "孙颖莎",
               "opponentOrg": "CHN",
-              "score": "",
-              "games": "",
-              "result": "pending",
-              "bye": false,
-              "startAt": "2026-09-27T14:15:00+09:00",
-              "table": "1 号台"
-            }
-          ]
-        },
-        {
-          "reg": "16277232",
-          "name": "孙颖莎",
-          "org": "CHN",
-          "orgName": "中国",
-          "status": "active",
-          "steps": [
-            {
-              "round": "第一轮（64强）",
-              "matchKey": "",
-              "opponent": "",
-              "opponentOrg": "",
-              "score": "",
-              "games": "",
-              "result": "pending",
-              "bye": true,
-              "startAt": "2026-09-23T12:05:00+09:00",
-              "table": ""
-            },
-            {
-              "round": "第二轮（32强）",
-              "matchKey": "W.SINGLES-----------.R32-.001600--",
-              "opponent": "玛丽亚姆·阿里",
-              "opponentOrg": "QAT",
-              "score": "4-0",
-              "games": "11:2, 11:2, 11:4, 11:2",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-25T13:15:00+09:00",
-              "table": ""
-            },
-            {
-              "round": "第三轮（16强）",
-              "matchKey": "W.SINGLES-----------.8FNL.000800--",
-              "opponent": "奥拉万·帕拉南",
-              "opponentOrg": "THA",
-              "score": "4-0",
-              "games": "11:5, 11:8, 11:4, 11:8",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-26T10:45:00+09:00",
-              "table": "2 号台"
-            },
-            {
-              "round": "1/4决赛",
-              "matchKey": "W.SINGLES-----------.QFNL.000400--",
-              "opponent": "朱芊曦",
-              "opponentOrg": "KOR",
-              "score": "4-2",
-              "games": "11:9, 14:12, 11:3, 7:11, 11:13, 11:8",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-26T16:15:00+09:00",
-              "table": "4 号台"
-            },
-            {
-              "round": "半决赛",
-              "matchKey": "W.SINGLES-----------.SFNL.000200--",
-              "opponent": "早田希娜",
-              "opponentOrg": "JPN",
-              "score": "",
-              "games": "",
-              "result": "pending",
+              "score": "1-4",
+              "games": "6:11, 7:11, 11:9, 9:11, 5:11",
+              "result": "loss",
               "bye": false,
               "startAt": "2026-09-27T14:15:00+09:00",
               "table": "1 号台"
@@ -9117,7 +9197,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T11:25:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "0-3",
               "games": "8:11, 7:11, 9:11",
               "subScores": null,
@@ -9156,7 +9236,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T11:25:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "3-0",
               "games": "11:4, 11:6, 11:9",
               "subScores": null,
@@ -9273,7 +9353,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T11:25:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "3-1",
               "games": "12:10, 11:13, 11:4, 11:4",
               "subScores": null,
@@ -9312,7 +9392,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-23T11:25:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "9 号台",
               "score": "0-3",
               "games": "2:11, 5:11, 4:11",
               "subScores": null,
@@ -9474,7 +9554,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T11:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "0-3",
               "games": "6:11, 5:11, 6:11",
               "subScores": null,
@@ -9513,7 +9593,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T11:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "3-0",
               "games": "11:1, 11:1, 11:5",
               "subScores": null,
@@ -9552,7 +9632,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T11:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "2-3",
               "games": "4:11, 7:11, 11:7, 11:8, 6:11",
               "subScores": null,
@@ -9591,7 +9671,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T11:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "9 号台",
               "score": "3-0",
               "games": "15:13, 11:3, 11:3",
               "subScores": null,
@@ -9786,7 +9866,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T11:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "0-3",
               "games": "0:11, 3:11, 6:11",
               "subScores": null,
@@ -9825,7 +9905,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T11:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "3-0",
               "games": "11:6, 11:3, 11:6",
               "subScores": null,
@@ -9864,7 +9944,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T11:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "2-3",
               "games": "4:11, 16:14, 7:11, 11:7, 4:11",
               "subScores": null,
@@ -9903,7 +9983,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T11:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "9 号台",
               "score": "3-0",
               "games": "14:12, 11:4, 13:11",
               "subScores": null,
@@ -10104,7 +10184,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T17:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "0-3",
               "games": "5:11, 11:13, 7:11",
               "subScores": null,
@@ -10143,7 +10223,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T17:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "1-3",
               "games": "8:11, 6:11, 11:9, 9:11",
               "subScores": null,
@@ -10464,12 +10544,12 @@
             {
               "key": "M.DOUBLES-----------.SFNL.000100--",
               "index": 1,
-              "status": "START_LIST",
+              "status": "OFFICIAL",
               "startAt": "2026-09-27T12:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
               "table": "1 号台",
-              "score": "",
-              "games": "",
+              "score": "4-1",
+              "games": "11:13, 12:10, 11:6, 11:9, 11:6",
               "subScores": null,
               "home": {
                 "reg": "TTEMDOUBLES----CHN01",
@@ -10477,8 +10557,8 @@
                 "name": "黄友政 / 林诗栋",
                 "latin": "HUANG Y / LIN S",
                 "bye": false,
-                "score": "",
-                "winner": false
+                "score": "4",
+                "winner": true
               },
               "away": {
                 "reg": "TTEMDOUBLES----JPN02",
@@ -10486,10 +10566,10 @@
                 "name": "松岛辉空 / 户上隼辅",
                 "latin": "MATSUSHIMA S / TOGAMI S",
                 "bye": false,
-                "score": "",
+                "score": "1",
                 "winner": false
               },
-              "winner": null,
+              "winner": "home",
               "feeders": [
                 "M.DOUBLES-----------.QFNL.000100--",
                 "M.DOUBLES-----------.QFNL.000200--"
@@ -10503,12 +10583,12 @@
             {
               "key": "M.DOUBLES-----------.SFNL.000200--",
               "index": 2,
-              "status": "START_LIST",
+              "status": "OFFICIAL",
               "startAt": "2026-09-27T12:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
               "table": "1 号台",
-              "score": "",
-              "games": "",
+              "score": "3-4",
+              "games": "11:9, 11:6, 9:11, 11:1, 10:12, 7:11, 4:11",
               "subScores": null,
               "home": {
                 "reg": "TTEMDOUBLES----CHN02",
@@ -10516,7 +10596,7 @@
                 "name": "温瑞博 / 向鹏",
                 "latin": "WEN R / XIANG P",
                 "bye": false,
-                "score": "",
+                "score": "3",
                 "winner": false
               },
               "away": {
@@ -10525,10 +10605,10 @@
                 "name": "张本智和 / 篠塚大登",
                 "latin": "HARIMOTO T / SHINOZUKA H",
                 "bye": false,
-                "score": "",
-                "winner": false
+                "score": "4",
+                "winner": true
               },
-              "winner": null,
+              "winner": "away",
               "feeders": [
                 "M.DOUBLES-----------.QFNL.000300--",
                 "M.DOUBLES-----------.QFNL.000400--"
@@ -10548,16 +10628,32 @@
             {
               "key": "M.DOUBLES-----------.FNL-.000100--",
               "index": 1,
-              "status": "SCHEDULED",
+              "status": "OFFICIAL",
               "startAt": "2026-09-27T19:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
               "table": "1 号台",
-              "score": "",
-              "games": "",
+              "score": "4-2",
+              "games": "6:11, 11:4, 12:14, 11:6, 11:5, 11:1",
               "subScores": null,
-              "home": null,
-              "away": null,
-              "winner": null,
+              "home": {
+                "reg": "TTEMDOUBLES----CHN01",
+                "org": "CHN",
+                "name": "黄友政 / 林诗栋",
+                "latin": "HUANG Y / LIN S",
+                "bye": false,
+                "score": "4",
+                "winner": true
+              },
+              "away": {
+                "reg": "TTEMDOUBLES----JPN01",
+                "org": "JPN",
+                "name": "张本智和 / 篠塚大登",
+                "latin": "HARIMOTO T / SHINOZUKA H",
+                "bye": false,
+                "score": "2",
+                "winner": false
+              },
+              "winner": "home",
               "feeders": [
                 "M.DOUBLES-----------.SFNL.000100--",
                 "M.DOUBLES-----------.SFNL.000200--"
@@ -10574,7 +10670,7 @@
           "name": "黄友政 / 林诗栋",
           "org": "CHN",
           "orgName": "中国",
-          "status": "active",
+          "status": "champion",
           "steps": [
             {
               "round": "第一轮（64强）",
@@ -10629,149 +10725,23 @@
               "matchKey": "M.DOUBLES-----------.SFNL.000100--",
               "opponent": "松岛辉空 / 户上隼辅",
               "opponentOrg": "JPN",
-              "score": "",
-              "games": "",
-              "result": "pending",
+              "score": "4-1",
+              "games": "11:13, 12:10, 11:6, 11:9, 11:6",
+              "result": "win",
               "bye": false,
               "startAt": "2026-09-27T12:00:00+09:00",
               "table": "1 号台"
-            }
-          ]
-        },
-        {
-          "reg": "TTEMDOUBLES----JPN02",
-          "name": "松岛辉空 / 户上隼辅",
-          "org": "JPN",
-          "orgName": "日本",
-          "status": "active",
-          "steps": [
-            {
-              "round": "第一轮（64强）",
-              "matchKey": "",
-              "opponent": "",
-              "opponentOrg": "",
-              "score": "",
-              "games": "",
-              "result": "pending",
-              "bye": true,
-              "startAt": "2026-09-23T11:25:00+09:00",
-              "table": ""
             },
             {
-              "round": "第二轮（32强）",
-              "matchKey": "M.DOUBLES-----------.R32-.000500--",
-              "opponent": "桑约格·卡帕利 / 鲁宾·马哈詹",
-              "opponentOrg": "NEP",
-              "score": "3-0",
-              "games": "11:1, 11:1, 11:5",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-25T11:00:00+09:00",
-              "table": ""
-            },
-            {
-              "round": "第三轮（16强）",
-              "matchKey": "M.DOUBLES-----------.8FNL.000300--",
-              "opponent": "哈米特·德赛 / 萨蒂扬·格纳纳塞卡兰",
-              "opponentOrg": "IND",
-              "score": "3-0",
-              "games": "11:5, 11:9, 11:9",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-25T17:00:00+09:00",
-              "table": "2 号台"
-            },
-            {
-              "round": "1/4决赛",
-              "matchKey": "M.DOUBLES-----------.QFNL.000200--",
-              "opponent": "吴晙诚 / 林钟勋",
-              "opponentOrg": "KOR",
-              "score": "3-1",
-              "games": "7:11, 11:4, 11:6, 12:10",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-26T15:30:00+09:00",
-              "table": "3 号台"
-            },
-            {
-              "round": "半决赛",
-              "matchKey": "M.DOUBLES-----------.SFNL.000100--",
-              "opponent": "黄友政 / 林诗栋",
-              "opponentOrg": "CHN",
-              "score": "",
-              "games": "",
-              "result": "pending",
-              "bye": false,
-              "startAt": "2026-09-27T12:00:00+09:00",
-              "table": "1 号台"
-            }
-          ]
-        },
-        {
-          "reg": "TTEMDOUBLES----CHN02",
-          "name": "温瑞博 / 向鹏",
-          "org": "CHN",
-          "orgName": "中国",
-          "status": "active",
-          "steps": [
-            {
-              "round": "第一轮（64强）",
-              "matchKey": "",
-              "opponent": "",
-              "opponentOrg": "",
-              "score": "",
-              "games": "",
-              "result": "pending",
-              "bye": true,
-              "startAt": "2026-09-23T11:25:00+09:00",
-              "table": ""
-            },
-            {
-              "round": "第二轮（32强）",
-              "matchKey": "M.DOUBLES-----------.R32-.001200--",
-              "opponent": "易卜拉欣·古布兰 / 马吉德·杜布哈尼",
-              "opponentOrg": "YEM",
-              "score": "3-0",
-              "games": "11:0, 11:3, 11:6",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-25T11:45:00+09:00",
-              "table": ""
-            },
-            {
-              "round": "第三轮（16强）",
-              "matchKey": "M.DOUBLES-----------.8FNL.000600--",
-              "opponent": "李正植 / 宇泰龙",
-              "opponentOrg": "PRK",
-              "score": "3-1",
-              "games": "11:8, 5:11, 13:11, 11:3",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-25T17:45:00+09:00",
-              "table": "2 号台"
-            },
-            {
-              "round": "1/4决赛",
-              "matchKey": "M.DOUBLES-----------.QFNL.000300--",
-              "opponent": "诺沙德·阿拉米扬 / 尼马·阿拉米安",
-              "opponentOrg": "IRI",
-              "score": "3-0",
-              "games": "11:6, 12:10, 11:3",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-26T15:30:00+09:00",
-              "table": "4 号台"
-            },
-            {
-              "round": "半决赛",
-              "matchKey": "M.DOUBLES-----------.SFNL.000200--",
+              "round": "决赛",
+              "matchKey": "M.DOUBLES-----------.FNL-.000100--",
               "opponent": "张本智和 / 篠塚大登",
               "opponentOrg": "JPN",
-              "score": "",
-              "games": "",
-              "result": "pending",
+              "score": "4-2",
+              "games": "6:11, 11:4, 12:14, 11:6, 11:5, 11:1",
+              "result": "win",
               "bye": false,
-              "startAt": "2026-09-27T12:45:00+09:00",
+              "startAt": "2026-09-27T19:00:00+09:00",
               "table": "1 号台"
             }
           ]
@@ -10781,7 +10751,7 @@
           "name": "张本智和 / 篠塚大登",
           "org": "JPN",
           "orgName": "日本",
-          "status": "active",
+          "status": "runner-up",
           "steps": [
             {
               "round": "第一轮（64强）",
@@ -10836,9 +10806,159 @@
               "matchKey": "M.DOUBLES-----------.SFNL.000200--",
               "opponent": "温瑞博 / 向鹏",
               "opponentOrg": "CHN",
+              "score": "4-3",
+              "games": "9:11, 6:11, 11:9, 1:11, 12:10, 11:7, 11:4",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-27T12:45:00+09:00",
+              "table": "1 号台"
+            },
+            {
+              "round": "决赛",
+              "matchKey": "M.DOUBLES-----------.FNL-.000100--",
+              "opponent": "黄友政 / 林诗栋",
+              "opponentOrg": "CHN",
+              "score": "2-4",
+              "games": "11:6, 4:11, 14:12, 6:11, 5:11, 1:11",
+              "result": "loss",
+              "bye": false,
+              "startAt": "2026-09-27T19:00:00+09:00",
+              "table": "1 号台"
+            }
+          ]
+        },
+        {
+          "reg": "TTEMDOUBLES----JPN02",
+          "name": "松岛辉空 / 户上隼辅",
+          "org": "JPN",
+          "orgName": "日本",
+          "status": "bronze",
+          "steps": [
+            {
+              "round": "第一轮（64强）",
+              "matchKey": "",
+              "opponent": "",
+              "opponentOrg": "",
               "score": "",
               "games": "",
               "result": "pending",
+              "bye": true,
+              "startAt": "2026-09-23T11:25:00+09:00",
+              "table": ""
+            },
+            {
+              "round": "第二轮（32强）",
+              "matchKey": "M.DOUBLES-----------.R32-.000500--",
+              "opponent": "桑约格·卡帕利 / 鲁宾·马哈詹",
+              "opponentOrg": "NEP",
+              "score": "3-0",
+              "games": "11:1, 11:1, 11:5",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-25T11:00:00+09:00",
+              "table": "6 号台"
+            },
+            {
+              "round": "第三轮（16强）",
+              "matchKey": "M.DOUBLES-----------.8FNL.000300--",
+              "opponent": "哈米特·德赛 / 萨蒂扬·格纳纳塞卡兰",
+              "opponentOrg": "IND",
+              "score": "3-0",
+              "games": "11:5, 11:9, 11:9",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-25T17:00:00+09:00",
+              "table": "2 号台"
+            },
+            {
+              "round": "1/4决赛",
+              "matchKey": "M.DOUBLES-----------.QFNL.000200--",
+              "opponent": "吴晙诚 / 林钟勋",
+              "opponentOrg": "KOR",
+              "score": "3-1",
+              "games": "7:11, 11:4, 11:6, 12:10",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-26T15:30:00+09:00",
+              "table": "3 号台"
+            },
+            {
+              "round": "半决赛",
+              "matchKey": "M.DOUBLES-----------.SFNL.000100--",
+              "opponent": "黄友政 / 林诗栋",
+              "opponentOrg": "CHN",
+              "score": "1-4",
+              "games": "13:11, 10:12, 6:11, 9:11, 6:11",
+              "result": "loss",
+              "bye": false,
+              "startAt": "2026-09-27T12:00:00+09:00",
+              "table": "1 号台"
+            }
+          ]
+        },
+        {
+          "reg": "TTEMDOUBLES----CHN02",
+          "name": "温瑞博 / 向鹏",
+          "org": "CHN",
+          "orgName": "中国",
+          "status": "bronze",
+          "steps": [
+            {
+              "round": "第一轮（64强）",
+              "matchKey": "",
+              "opponent": "",
+              "opponentOrg": "",
+              "score": "",
+              "games": "",
+              "result": "pending",
+              "bye": true,
+              "startAt": "2026-09-23T11:25:00+09:00",
+              "table": ""
+            },
+            {
+              "round": "第二轮（32强）",
+              "matchKey": "M.DOUBLES-----------.R32-.001200--",
+              "opponent": "易卜拉欣·古布兰 / 马吉德·杜布哈尼",
+              "opponentOrg": "YEM",
+              "score": "3-0",
+              "games": "11:0, 11:3, 11:6",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-25T11:45:00+09:00",
+              "table": "5 号台"
+            },
+            {
+              "round": "第三轮（16强）",
+              "matchKey": "M.DOUBLES-----------.8FNL.000600--",
+              "opponent": "李正植 / 宇泰龙",
+              "opponentOrg": "PRK",
+              "score": "3-1",
+              "games": "11:8, 5:11, 13:11, 11:3",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-25T17:45:00+09:00",
+              "table": "2 号台"
+            },
+            {
+              "round": "1/4决赛",
+              "matchKey": "M.DOUBLES-----------.QFNL.000300--",
+              "opponent": "诺沙德·阿拉米扬 / 尼马·阿拉米安",
+              "opponentOrg": "IRI",
+              "score": "3-0",
+              "games": "11:6, 12:10, 11:3",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-26T15:30:00+09:00",
+              "table": "4 号台"
+            },
+            {
+              "round": "半决赛",
+              "matchKey": "M.DOUBLES-----------.SFNL.000200--",
+              "opponent": "张本智和 / 篠塚大登",
+              "opponentOrg": "JPN",
+              "score": "3-4",
+              "games": "11:9, 11:6, 9:11, 11:1, 10:12, 7:11, 4:11",
+              "result": "loss",
               "bye": false,
               "startAt": "2026-09-27T12:45:00+09:00",
               "table": "1 号台"
@@ -10979,7 +11099,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-21T18:30:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "3-0",
               "games": "11:7, 11:3, 11:8",
               "subScores": null,
@@ -11180,7 +11300,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T10:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "3-0",
               "games": "11:7, 11:4, 11:7",
               "subScores": null,
@@ -11219,7 +11339,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T10:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "3-2",
               "games": "12:14, 15:13, 5:11, 15:13, 11:3",
               "subScores": null,
@@ -11258,7 +11378,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T10:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "3-0",
               "games": "11:2, 11:8, 11:3",
               "subScores": null,
@@ -11297,7 +11417,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T10:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "1-3",
               "games": "14:12, 1:11, 5:11, 5:11",
               "subScores": null,
@@ -11453,7 +11573,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T10:40:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "0-3",
               "games": "3:11, 1:11, 5:11",
               "subScores": null,
@@ -11531,7 +11651,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T10:40:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "6 号台",
               "score": "0-3",
               "games": "8:11, 3:11, 6:11",
               "subScores": null,
@@ -11570,7 +11690,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T10:40:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "7 号台",
               "score": "3-0",
               "games": "11:5, 11:4, 12:10",
               "subScores": null,
@@ -11609,7 +11729,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-24T10:40:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "9 号台",
               "score": "0-3",
               "games": "1:11, 1:11, 3:11",
               "subScores": null,
@@ -11732,7 +11852,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T16:15:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "9 号台",
               "score": "3-0",
               "games": "11:8, 11:3, 11:8",
               "subScores": null,
@@ -11810,7 +11930,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T15:30:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "8 号台",
               "score": "3-1",
               "games": "8:11, 11:3, 11:5, 11:6",
               "subScores": null,
@@ -11849,7 +11969,7 @@
               "status": "OFFICIAL",
               "startAt": "2026-09-25T15:30:00+09:00",
               "venue": "SKY HALL TOYOTA",
-              "table": "",
+              "table": "5 号台",
               "score": "0-3",
               "games": "1:11, 6:11, 13:15",
               "subScores": null,
@@ -12131,12 +12251,12 @@
             {
               "key": "W.DOUBLES-----------.SFNL.000100--",
               "index": 1,
-              "status": "START_LIST",
+              "status": "OFFICIAL",
               "startAt": "2026-09-28T12:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
               "table": "1 号台",
-              "score": "",
-              "games": "",
+              "score": "4-0",
+              "games": "11:6, 11:5, 11:4, 11:6",
               "subScores": null,
               "home": {
                 "reg": "TTEWDOUBLES----JPN01",
@@ -12144,8 +12264,8 @@
                 "name": "张本美和 / 早田希娜",
                 "latin": "HARIMOTO M / HAYATA H",
                 "bye": false,
-                "score": "",
-                "winner": false
+                "score": "4",
+                "winner": true
               },
               "away": {
                 "reg": "TTEWDOUBLES----HKG01",
@@ -12153,10 +12273,10 @@
                 "name": "杜凯琹 / 吴咏琳",
                 "latin": "DOO H / NG W",
                 "bye": false,
-                "score": "",
+                "score": "0",
                 "winner": false
               },
-              "winner": null,
+              "winner": "home",
               "feeders": [
                 "W.DOUBLES-----------.QFNL.000100--",
                 "W.DOUBLES-----------.QFNL.000200--"
@@ -12170,12 +12290,12 @@
             {
               "key": "W.DOUBLES-----------.SFNL.000200--",
               "index": 2,
-              "status": "START_LIST",
+              "status": "OFFICIAL",
               "startAt": "2026-09-28T12:45:00+09:00",
               "venue": "SKY HALL TOYOTA",
               "table": "1 号台",
-              "score": "",
-              "games": "",
+              "score": "0-4",
+              "games": "6:11, 8:11, 5:11, 6:11",
               "subScores": null,
               "home": {
                 "reg": "TTEWDOUBLES----THA01",
@@ -12183,7 +12303,7 @@
                 "name": "素塔西尼·萨维塔布特 / 奥拉万·帕拉南",
                 "latin": "SAWETTABUT S / PARANANG O",
                 "bye": false,
-                "score": "",
+                "score": "0",
                 "winner": false
               },
               "away": {
@@ -12192,10 +12312,10 @@
                 "name": "蒯曼 / 王曼昱",
                 "latin": "KUAI M / WANG M",
                 "bye": false,
-                "score": "",
-                "winner": false
+                "score": "4",
+                "winner": true
               },
-              "winner": null,
+              "winner": "away",
               "feeders": [
                 "W.DOUBLES-----------.QFNL.000300--",
                 "W.DOUBLES-----------.QFNL.000400--"
@@ -12215,16 +12335,32 @@
             {
               "key": "W.DOUBLES-----------.FNL-.000100--",
               "index": 1,
-              "status": "SCHEDULED",
+              "status": "OFFICIAL",
               "startAt": "2026-09-28T19:00:00+09:00",
               "venue": "SKY HALL TOYOTA",
               "table": "1 号台",
-              "score": "",
-              "games": "",
+              "score": "0-4",
+              "games": "0:11, 11:13, 4:11, 9:11",
               "subScores": null,
-              "home": null,
-              "away": null,
-              "winner": null,
+              "home": {
+                "reg": "TTEWDOUBLES----JPN01",
+                "org": "JPN",
+                "name": "张本美和 / 早田希娜",
+                "latin": "HARIMOTO M / HAYATA H",
+                "bye": false,
+                "score": "0",
+                "winner": false
+              },
+              "away": {
+                "reg": "TTEWDOUBLES----CHN01",
+                "org": "CHN",
+                "name": "蒯曼 / 王曼昱",
+                "latin": "KUAI M / WANG M",
+                "bye": false,
+                "score": "4",
+                "winner": true
+              },
+              "winner": "away",
               "feeders": [
                 "W.DOUBLES-----------.SFNL.000100--",
                 "W.DOUBLES-----------.SFNL.000200--"
@@ -12241,7 +12377,7 @@
           "name": "张本美和 / 早田希娜",
           "org": "JPN",
           "orgName": "日本",
-          "status": "active",
+          "status": "runner-up",
           "steps": [
             {
               "round": "第一轮（64强）",
@@ -12296,149 +12432,23 @@
               "matchKey": "W.DOUBLES-----------.SFNL.000100--",
               "opponent": "杜凯琹 / 吴咏琳",
               "opponentOrg": "HKG",
-              "score": "",
-              "games": "",
-              "result": "pending",
+              "score": "4-0",
+              "games": "11:6, 11:5, 11:4, 11:6",
+              "result": "win",
               "bye": false,
               "startAt": "2026-09-28T12:00:00+09:00",
               "table": "1 号台"
-            }
-          ]
-        },
-        {
-          "reg": "TTEWDOUBLES----HKG01",
-          "name": "杜凯琹 / 吴咏琳",
-          "org": "HKG",
-          "orgName": "中国香港",
-          "status": "active",
-          "steps": [
-            {
-              "round": "第一轮（64强）",
-              "matchKey": "",
-              "opponent": "",
-              "opponentOrg": "",
-              "score": "",
-              "games": "",
-              "result": "pending",
-              "bye": true,
-              "startAt": "2026-09-21T18:30:00+09:00",
-              "table": ""
             },
             {
-              "round": "第二轮（32强）",
-              "matchKey": "W.DOUBLES-----------.R32-.000800--",
-              "opponent": "阿鲁詹·卡马洛娃 / 阿塞尔·埃尔克巴耶娃",
-              "opponentOrg": "UZB",
-              "score": "3-1",
-              "games": "12:14, 11:1, 11:5, 11:5",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-24T10:00:00+09:00",
-              "table": ""
-            },
-            {
-              "round": "第三轮（16强）",
-              "matchKey": "W.DOUBLES-----------.8FNL.000400--",
-              "opponent": "金娜英 / 李恩惠",
-              "opponentOrg": "KOR",
-              "score": "3-2",
-              "games": "4:11, 11:5, 8:11, 11:4, 11:5",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-25T16:15:00+09:00",
-              "table": "4 号台"
-            },
-            {
-              "round": "1/4决赛",
-              "matchKey": "W.DOUBLES-----------.QFNL.000200--",
-              "opponent": "洛伊·明 / 舒麟茜",
-              "opponentOrg": "SGP",
-              "score": "3-0",
-              "games": "11:4, 11:2, 11:7",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-26T17:45:00+09:00",
-              "table": "3 号台"
-            },
-            {
-              "round": "半决赛",
-              "matchKey": "W.DOUBLES-----------.SFNL.000100--",
-              "opponent": "张本美和 / 早田希娜",
-              "opponentOrg": "JPN",
-              "score": "",
-              "games": "",
-              "result": "pending",
-              "bye": false,
-              "startAt": "2026-09-28T12:00:00+09:00",
-              "table": "1 号台"
-            }
-          ]
-        },
-        {
-          "reg": "TTEWDOUBLES----THA01",
-          "name": "素塔西尼·萨维塔布特 / 奥拉万·帕拉南",
-          "org": "THA",
-          "orgName": "泰国",
-          "status": "active",
-          "steps": [
-            {
-              "round": "第一轮（64强）",
-              "matchKey": "",
-              "opponent": "",
-              "opponentOrg": "",
-              "score": "",
-              "games": "",
-              "result": "pending",
-              "bye": true,
-              "startAt": "2026-09-21T18:30:00+09:00",
-              "table": ""
-            },
-            {
-              "round": "第二轮（32强）",
-              "matchKey": "W.DOUBLES-----------.R32-.001200--",
-              "opponent": "比桑·奇里 / 塔莉娅·阿扎尔",
-              "opponentOrg": "LBN",
-              "score": "3-0",
-              "games": "11:3, 11:1, 11:5",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-24T10:40:00+09:00",
-              "table": ""
-            },
-            {
-              "round": "第三轮（16强）",
-              "matchKey": "W.DOUBLES-----------.8FNL.000600--",
-              "opponent": "叶伊恬 / 郑怡静",
-              "opponentOrg": "TPE",
-              "score": "3-0",
-              "games": "11:1, 11:6, 15:13",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-25T15:30:00+09:00",
-              "table": ""
-            },
-            {
-              "round": "1/4决赛",
-              "matchKey": "W.DOUBLES-----------.QFNL.000300--",
-              "opponent": "申裕斌 / 朱芊曦",
-              "opponentOrg": "KOR",
-              "score": "3-2",
-              "games": "11:8, 9:11, 7:11, 11:4, 12:10",
-              "result": "win",
-              "bye": false,
-              "startAt": "2026-09-26T17:45:00+09:00",
-              "table": "2 号台"
-            },
-            {
-              "round": "半决赛",
-              "matchKey": "W.DOUBLES-----------.SFNL.000200--",
+              "round": "决赛",
+              "matchKey": "W.DOUBLES-----------.FNL-.000100--",
               "opponent": "蒯曼 / 王曼昱",
               "opponentOrg": "CHN",
-              "score": "",
-              "games": "",
-              "result": "pending",
+              "score": "0-4",
+              "games": "0:11, 11:13, 4:11, 9:11",
+              "result": "loss",
               "bye": false,
-              "startAt": "2026-09-28T12:45:00+09:00",
+              "startAt": "2026-09-28T19:00:00+09:00",
               "table": "1 号台"
             }
           ]
@@ -12448,7 +12458,7 @@
           "name": "蒯曼 / 王曼昱",
           "org": "CHN",
           "orgName": "中国",
-          "status": "active",
+          "status": "champion",
           "steps": [
             {
               "round": "第一轮（64强）",
@@ -12472,7 +12482,7 @@
               "result": "win",
               "bye": false,
               "startAt": "2026-09-24T10:40:00+09:00",
-              "table": ""
+              "table": "9 号台"
             },
             {
               "round": "第三轮（16强）",
@@ -12503,9 +12513,159 @@
               "matchKey": "W.DOUBLES-----------.SFNL.000200--",
               "opponent": "素塔西尼·萨维塔布特 / 奥拉万·帕拉南",
               "opponentOrg": "THA",
+              "score": "4-0",
+              "games": "11:6, 11:8, 11:5, 11:6",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-28T12:45:00+09:00",
+              "table": "1 号台"
+            },
+            {
+              "round": "决赛",
+              "matchKey": "W.DOUBLES-----------.FNL-.000100--",
+              "opponent": "张本美和 / 早田希娜",
+              "opponentOrg": "JPN",
+              "score": "4-0",
+              "games": "11:0, 13:11, 11:4, 11:9",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-28T19:00:00+09:00",
+              "table": "1 号台"
+            }
+          ]
+        },
+        {
+          "reg": "TTEWDOUBLES----HKG01",
+          "name": "杜凯琹 / 吴咏琳",
+          "org": "HKG",
+          "orgName": "中国香港",
+          "status": "bronze",
+          "steps": [
+            {
+              "round": "第一轮（64强）",
+              "matchKey": "",
+              "opponent": "",
+              "opponentOrg": "",
               "score": "",
               "games": "",
               "result": "pending",
+              "bye": true,
+              "startAt": "2026-09-21T18:30:00+09:00",
+              "table": ""
+            },
+            {
+              "round": "第二轮（32强）",
+              "matchKey": "W.DOUBLES-----------.R32-.000800--",
+              "opponent": "阿鲁詹·卡马洛娃 / 阿塞尔·埃尔克巴耶娃",
+              "opponentOrg": "UZB",
+              "score": "3-1",
+              "games": "12:14, 11:1, 11:5, 11:5",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-24T10:00:00+09:00",
+              "table": "8 号台"
+            },
+            {
+              "round": "第三轮（16强）",
+              "matchKey": "W.DOUBLES-----------.8FNL.000400--",
+              "opponent": "金娜英 / 李恩惠",
+              "opponentOrg": "KOR",
+              "score": "3-2",
+              "games": "4:11, 11:5, 8:11, 11:4, 11:5",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-25T16:15:00+09:00",
+              "table": "4 号台"
+            },
+            {
+              "round": "1/4决赛",
+              "matchKey": "W.DOUBLES-----------.QFNL.000200--",
+              "opponent": "洛伊·明 / 舒麟茜",
+              "opponentOrg": "SGP",
+              "score": "3-0",
+              "games": "11:4, 11:2, 11:7",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-26T17:45:00+09:00",
+              "table": "3 号台"
+            },
+            {
+              "round": "半决赛",
+              "matchKey": "W.DOUBLES-----------.SFNL.000100--",
+              "opponent": "张本美和 / 早田希娜",
+              "opponentOrg": "JPN",
+              "score": "0-4",
+              "games": "6:11, 5:11, 4:11, 6:11",
+              "result": "loss",
+              "bye": false,
+              "startAt": "2026-09-28T12:00:00+09:00",
+              "table": "1 号台"
+            }
+          ]
+        },
+        {
+          "reg": "TTEWDOUBLES----THA01",
+          "name": "素塔西尼·萨维塔布特 / 奥拉万·帕拉南",
+          "org": "THA",
+          "orgName": "泰国",
+          "status": "bronze",
+          "steps": [
+            {
+              "round": "第一轮（64强）",
+              "matchKey": "",
+              "opponent": "",
+              "opponentOrg": "",
+              "score": "",
+              "games": "",
+              "result": "pending",
+              "bye": true,
+              "startAt": "2026-09-21T18:30:00+09:00",
+              "table": ""
+            },
+            {
+              "round": "第二轮（32强）",
+              "matchKey": "W.DOUBLES-----------.R32-.001200--",
+              "opponent": "比桑·奇里 / 塔莉娅·阿扎尔",
+              "opponentOrg": "LBN",
+              "score": "3-0",
+              "games": "11:3, 11:1, 11:5",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-24T10:40:00+09:00",
+              "table": "5 号台"
+            },
+            {
+              "round": "第三轮（16强）",
+              "matchKey": "W.DOUBLES-----------.8FNL.000600--",
+              "opponent": "叶伊恬 / 郑怡静",
+              "opponentOrg": "TPE",
+              "score": "3-0",
+              "games": "11:1, 11:6, 15:13",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-25T15:30:00+09:00",
+              "table": "5 号台"
+            },
+            {
+              "round": "1/4决赛",
+              "matchKey": "W.DOUBLES-----------.QFNL.000300--",
+              "opponent": "申裕斌 / 朱芊曦",
+              "opponentOrg": "KOR",
+              "score": "3-2",
+              "games": "11:8, 9:11, 7:11, 11:4, 12:10",
+              "result": "win",
+              "bye": false,
+              "startAt": "2026-09-26T17:45:00+09:00",
+              "table": "2 号台"
+            },
+            {
+              "round": "半决赛",
+              "matchKey": "W.DOUBLES-----------.SFNL.000200--",
+              "opponent": "蒯曼 / 王曼昱",
+              "opponentOrg": "CHN",
+              "score": "0-4",
+              "games": "6:11, 8:11, 5:11, 6:11",
+              "result": "loss",
               "bye": false,
               "startAt": "2026-09-28T12:45:00+09:00",
               "table": "1 号台"

@@ -32,6 +32,7 @@ app.get("/api/health", (_request, response) => {
   const payload: HealthResponse = {
     ok: true,
     service: "AG2026 Table Tennis Scoreboard",
+    mode: config.mode,
     source: {
       baseUrl: config.baseUrl,
       socketUrl: config.socketUrl,
@@ -222,7 +223,13 @@ app.use(
 
 app.listen(config.port, config.host, () => {
   routes.start();
+  const archiveHint =
+    config.mode === "live"
+      ? "live"
+      : client.hasArchivedUnits()
+        ? `${config.mode} (archived data available)`
+        : `${config.mode} (no local archive)`;
   console.log(
-    `AG2026 scoreboard listening on http://${config.host}:${config.port}`
+    `AG2026 scoreboard listening on http://${config.host}:${config.port} [${archiveHint}]`
   );
 });

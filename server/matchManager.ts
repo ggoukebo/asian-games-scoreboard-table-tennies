@@ -159,7 +159,10 @@ export class MatchManager extends EventEmitter {
   private readonly states = new Map<string, MatchState>();
 
   constructor(
-    private readonly client: Pick<AgClient, "getMatch">,
+    private readonly client: Pick<AgClient, "getMatch"> & {
+      /** 可选：本地归档中是否已有该场结果（归档模式只读取一次） */
+      hasArchivedMatch?: (matchKey: string) => boolean;
+    },
     private readonly createSocket: SocketFactory = (url, options) =>
       io(url, options)
   ) {
@@ -168,6 +171,10 @@ export class MatchManager extends EventEmitter {
 
   get activeMatches(): number {
     return this.states.size;
+  }
+
+  private isArchived(matchKey: string): boolean {
+    return this.client.hasArchivedMatch?.(matchKey) ?? false;
   }
 
   getSnapshot(matchKey: string): MatchSnapshot | null {
@@ -231,6 +238,15 @@ export class MatchManager extends EventEmitter {
 
   private start(matchKey: string): void {
     const state = this.ensureState(matchKey);
+
+    // 归档模式：本地已有该场结果，只读取一次，不连接实时通道也不轮询
+    if (this.isArchived(matchKey)) {
+      void this.refresh(matchKey).catch((error: unknown) => {
+        this.markError(matchKey, error);
+      });
+      return;
+    }
+
     if (!state.socket) {
       this.connectSocket(matchKey, state);
     }
@@ -326,10 +342,16 @@ export class MatchManager extends EventEmitter {
     matchKey: string,
     state: MatchState
   ): Promise<MatchSnapshot> {
+    const archived = this.isArchived(matchKey);
     const socketEventVersionAtStart = state.socketEventVersion;
     const raw = await this.client.getMatch(matchKey);
     const snapshot = normalizeMatch(raw, getCachedFlagMap());
     warmFlagMap();
+
+    if (archived) {
+      this.setSnapshot(matchKey, snapshot, "本地归档数据", true);
+      return snapshot;
+    }
 
     const socketUpdatedDuringRequest =
       state.socketEventVersion !== socketEventVersionAtStart;
@@ -358,13 +380,18 @@ export class MatchManager extends EventEmitter {
   private setSnapshot(
     matchKey: string,
     snapshot: MatchSnapshot,
-    message: string
+    message: string,
+    archived = false
   ): void {
     const state = this.ensureState(matchKey);
-    const next = this.applyTimeout(state, snapshot);
+    const next = archived ? snapshot : this.applyTimeout(state, snapshot);
     state.snapshot = next;
     this.updateStatus(matchKey, {
-      state: state.status.socketConnected ? "live" : "polling",
+      state: archived
+        ? "archived"
+        : state.status.socketConnected
+          ? "live"
+          : "polling",
       lastUpdatedAt: next.updatedAt,
       message
     });
